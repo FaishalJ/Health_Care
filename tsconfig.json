@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
     "lib": [
       "dom",
       "dom.iterable",
@@ -20,7 +26,8 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "target": "ES2017"
   },
   "include": [
     "next-env.d.ts",
