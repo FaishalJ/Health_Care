@@ -1,3 +1,5 @@
+"use server";
+
 import { Query, ID } from "node-appwrite";
 import { users } from "../appwrite/appwrite";
 
