@@ -11,7 +11,8 @@ export const createUser = async (user: CreateUserParams) => {
       user.name,
     );
 
-    return newUser;
+    console.log({ newUser });
+    return newUser
   } catch (error: any) {
     if (error && error?.code === 409) {
       const documents = await users.list([Query.equal("email", user.email)]);
