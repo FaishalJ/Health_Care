@@ -1,5 +1,5 @@
 import { Query, ID } from "node-appwrite";
-import { users } from "../appwrite.config";
+import { users } from "../appwrite/appwrite";
 
 export const createUser = async (user: CreateUserParams) => {
   try {
