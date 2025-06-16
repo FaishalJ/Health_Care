@@ -1,54 +1,5 @@
 {
-  "node": {
-    "7f006b0c63f696555ce82d0a7ddbe78fc92a6ba33e": {
-      "workers": {
-        "app/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f006b0c63f696555ce82d0a7ddbe78fc92a6ba33e%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227faa03d5fd48da24d9592d5f2663abb1975d9089b5%22%2C%22exportedName%22%3A%22registerPatient%22%7D%2C%7B%22id%22%3A%227ff6198167a5254f723fe9f102f15913524a4a13ba%22%2C%22exportedName%22%3A%22createUser%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/patients/[userId]/register/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f006b0c63f696555ce82d0a7ddbe78fc92a6ba33e%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227faa03d5fd48da24d9592d5f2663abb1975d9089b5%22%2C%22exportedName%22%3A%22registerPatient%22%7D%2C%7B%22id%22%3A%227ff6198167a5254f723fe9f102f15913524a4a13ba%22%2C%22exportedName%22%3A%22createUser%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/patients/[userId]/register/page": "rsc"
-      }
-    },
-    "7faa03d5fd48da24d9592d5f2663abb1975d9089b5": {
-      "workers": {
-        "app/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f006b0c63f696555ce82d0a7ddbe78fc92a6ba33e%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227faa03d5fd48da24d9592d5f2663abb1975d9089b5%22%2C%22exportedName%22%3A%22registerPatient%22%7D%2C%7B%22id%22%3A%227ff6198167a5254f723fe9f102f15913524a4a13ba%22%2C%22exportedName%22%3A%22createUser%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/patients/[userId]/register/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f006b0c63f696555ce82d0a7ddbe78fc92a6ba33e%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227faa03d5fd48da24d9592d5f2663abb1975d9089b5%22%2C%22exportedName%22%3A%22registerPatient%22%7D%2C%7B%22id%22%3A%227ff6198167a5254f723fe9f102f15913524a4a13ba%22%2C%22exportedName%22%3A%22createUser%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/patients/[userId]/register/page": "rsc"
-      }
-    },
-    "7ff6198167a5254f723fe9f102f15913524a4a13ba": {
-      "workers": {
-        "app/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f006b0c63f696555ce82d0a7ddbe78fc92a6ba33e%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227faa03d5fd48da24d9592d5f2663abb1975d9089b5%22%2C%22exportedName%22%3A%22registerPatient%22%7D%2C%7B%22id%22%3A%227ff6198167a5254f723fe9f102f15913524a4a13ba%22%2C%22exportedName%22%3A%22createUser%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/patients/[userId]/register/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f006b0c63f696555ce82d0a7ddbe78fc92a6ba33e%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227faa03d5fd48da24d9592d5f2663abb1975d9089b5%22%2C%22exportedName%22%3A%22registerPatient%22%7D%2C%7B%22id%22%3A%227ff6198167a5254f723fe9f102f15913524a4a13ba%22%2C%22exportedName%22%3A%22createUser%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/patients/[userId]/register/page": "rsc"
-      }
-    }
-  },
+  "node": {},
   "edge": {},
-  "encryptionKey": "wVgJorN4pdHFec7zGJz3nFzJMUFhxYVvE6o2ZaH9XyM="
+  "encryptionKey": "RvFzYib1U9aUGq6jv6FofiG5LThWHGJ9fu/Xonoz7Ts="
 }
