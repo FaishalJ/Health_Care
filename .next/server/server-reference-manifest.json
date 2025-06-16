@@ -1,5 +1,39 @@
 {
-  "node": {},
+  "node": {
+    "7f5bc5121d351d343e91d481331a87d41d55bc3927": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f5bc5121d351d343e91d481331a87d41d55bc3927%22%2C%22exportedName%22%3A%22registerPatient%22%7D%2C%7B%22id%22%3A%227f90183fbb2a54a0b24a0f4bfc77d2ed3b1ce9ba8a%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227fa6b49d7f75fbf482e9dd19ac030a16a0fbabd2fe%22%2C%22exportedName%22%3A%22createUser%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "7f90183fbb2a54a0b24a0f4bfc77d2ed3b1ce9ba8a": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f5bc5121d351d343e91d481331a87d41d55bc3927%22%2C%22exportedName%22%3A%22registerPatient%22%7D%2C%7B%22id%22%3A%227f90183fbb2a54a0b24a0f4bfc77d2ed3b1ce9ba8a%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227fa6b49d7f75fbf482e9dd19ac030a16a0fbabd2fe%22%2C%22exportedName%22%3A%22createUser%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "7fa6b49d7f75fbf482e9dd19ac030a16a0fbabd2fe": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f5bc5121d351d343e91d481331a87d41d55bc3927%22%2C%22exportedName%22%3A%22registerPatient%22%7D%2C%7B%22id%22%3A%227f90183fbb2a54a0b24a0f4bfc77d2ed3b1ce9ba8a%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227fa6b49d7f75fbf482e9dd19ac030a16a0fbabd2fe%22%2C%22exportedName%22%3A%22createUser%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "rykIt8mR/5IfB/sb1g+ZY8wtJ5x1dffJhiLxKiOEIog="
+  "encryptionKey": "leqI2CyXdCzFIaBhyWxJyhyLGNaEer+dNNAkajK+juU="
 }
