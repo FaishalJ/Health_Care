@@ -1,7 +1,6 @@
 "use server";
 
-import { Query, ID } from "node-appwrite";
-import { InputFile } from "node-appwrite/file";
+import { Query, ID, InputFile } from "node-appwrite";
 import { databases, storage, users } from "../appwrite/appwrite";
 import { appwriteConfig } from "../appwrite/config";
 import { parseStringify } from "../utils";
