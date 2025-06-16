@@ -50,10 +50,14 @@ export const registerPatient = async ({
       const blob = identificationDocument.get("blobFile") as Blob;
       const fileName = identificationDocument.get("fileName") as string;
 
+      // Convert blob to buffer for node-appwrite
+      const arrayBuffer = await blob.arrayBuffer();
+      const buffer = Buffer.from(arrayBuffer);
+
       file = await storage.createFile(
         appwriteConfig.bucketId, 
         ID.unique(), 
-        blob,
+        buffer,
         undefined, // permissions (optional)
         fileName
       );
