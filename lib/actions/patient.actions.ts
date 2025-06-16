@@ -50,16 +50,17 @@ export const registerPatient = async ({
       const blob = identificationDocument.get("blobFile") as Blob;
       const fileName = identificationDocument.get("fileName") as string;
 
-      // Convert blob to buffer for node-appwrite
+      // Convert blob to buffer and create a File-like object
       const arrayBuffer = await blob.arrayBuffer();
       const buffer = Buffer.from(arrayBuffer);
+      
+      // Create a File object that node-appwrite can accept
+      const fileObject = new File([buffer], fileName, { type: blob.type });
 
       file = await storage.createFile(
         appwriteConfig.bucketId, 
         ID.unique(), 
-        buffer,
-        undefined, // permissions (optional)
-        fileName
+        fileObject
       );
     }
     // Create new patient document -> https://appwrite.io/docs/references/cloud/server-nodejs/databases#createDocument
