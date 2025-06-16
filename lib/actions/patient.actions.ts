@@ -1,9 +1,13 @@
 "use server";
 
-import { Query, ID, InputFile } from "node-appwrite";
+import { Query, ID } from "node-appwrite";
 import { databases, storage, users } from "../appwrite/appwrite";
 import { appwriteConfig } from "../appwrite/config";
 import { parseStringify } from "../utils";
+
+// Import InputFile dynamically
+import * as appwrite from "node-appwrite";
+const InputFile = appwrite.InputFile;
 
 // ==========> Create User <==========
 export const createUser = async (user: CreateUserParams) => {
