@@ -64,6 +64,13 @@ export const registerPatient = async ({
       );
     }
     // Create new patient document -> https://appwrite.io/docs/references/cloud/server-nodejs/databases#createDocument
+    // Extract and exclude fields that may not be in the Appwrite schema
+    const {
+      identificationDocument,
+      currentMedication,
+      ...validPatientFields
+    } = patient;
+
     const newPatient = await databases.createDocument(
       appwriteConfig.databaseId,
       appwriteConfig.patientCollectionId,
@@ -73,7 +80,7 @@ export const registerPatient = async ({
         identificationDocumentUrl: file?.$id
           ? `${appwriteConfig.endpointUrl}/storage/buckets/${appwriteConfig.bucketId}/files/${file.$id}/view?project=${appwriteConfig.projectId}`
           : null,
-        ...patient,
+        ...validPatientFields,
       }
     );
 

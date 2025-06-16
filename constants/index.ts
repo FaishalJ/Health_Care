@@ -15,7 +15,6 @@ export const PatientFormDefaultValues = {
   insuranceProvider: "",
   insurancePolicyNumber: "",
   allergies: "",
-  currentMedication: "",
   familyMedicalHistory: "",
   pastMedicalHistory: "",
   identificationType: "Birth Certificate",

@@ -75,7 +75,6 @@ const RegisterForm = ({ user }: { user: User }) => {
           insuranceProvider: values.insuranceProvider,
           insurancePolicyNumber: values.insurancePolicyNumber,
           allergies: values.allergies,
-          currentMedication: values.currentMedication,
           familyMedicalHistory: values.familyMedicalHistory,
           pastMedicalHistory: values.pastMedicalHistory,
           identificationType: values.identificationType,
