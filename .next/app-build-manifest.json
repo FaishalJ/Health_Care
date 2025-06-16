@@ -1,3 +1,16 @@
 {
-  "pages": {}
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/patients/[userId]/register/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/patients/[userId]/register/page.css",
+      "static/chunks/app/patients/[userId]/register/page.js"
+    ]
+  }
 }

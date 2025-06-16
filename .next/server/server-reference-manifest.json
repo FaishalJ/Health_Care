@@ -1,5 +1,39 @@
 {
-  "node": {},
+  "node": {
+    "7f3aa413997c3d807b9597547835a461c49f558338": {
+      "workers": {
+        "app/patients/[userId]/register/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f3aa413997c3d807b9597547835a461c49f558338%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227f6dfe11da6b9ff7ca6962cbf98a4de59c04b52a51%22%2C%22exportedName%22%3A%22createUser%22%7D%2C%7B%22id%22%3A%227fdebf7d9f101c0825a96277fc7b7ddd17f73accac%22%2C%22exportedName%22%3A%22registerPatient%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/patients/[userId]/register/page": "rsc"
+      }
+    },
+    "7f6dfe11da6b9ff7ca6962cbf98a4de59c04b52a51": {
+      "workers": {
+        "app/patients/[userId]/register/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f3aa413997c3d807b9597547835a461c49f558338%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227f6dfe11da6b9ff7ca6962cbf98a4de59c04b52a51%22%2C%22exportedName%22%3A%22createUser%22%7D%2C%7B%22id%22%3A%227fdebf7d9f101c0825a96277fc7b7ddd17f73accac%22%2C%22exportedName%22%3A%22registerPatient%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/patients/[userId]/register/page": "rsc"
+      }
+    },
+    "7fdebf7d9f101c0825a96277fc7b7ddd17f73accac": {
+      "workers": {
+        "app/patients/[userId]/register/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Frunner%2Fworkspace%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%7B%22id%22%3A%227f3aa413997c3d807b9597547835a461c49f558338%22%2C%22exportedName%22%3A%22getUser%22%7D%2C%7B%22id%22%3A%227f6dfe11da6b9ff7ca6962cbf98a4de59c04b52a51%22%2C%22exportedName%22%3A%22createUser%22%7D%2C%7B%22id%22%3A%227fdebf7d9f101c0825a96277fc7b7ddd17f73accac%22%2C%22exportedName%22%3A%22registerPatient%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/patients/[userId]/register/page": "rsc"
+      }
+    }
+  },
   "edge": {},
   "encryptionKey": "2+Q+XM1S/So0n0Hdv1IDVhdc+aVIQBe3FkE+cl9wQQg="
 }
