@@ -65,7 +65,7 @@ export const registerPatient = async ({
       {
         identificationDocumentId: file?.$id ? file.$id : null,
         identificationDocumentUrl: file?.$id
-          ? `${appwriteConfig.endpointUrl}/storage/buckets/${appwriteConfig.bucketId}/files/${file.$id}/view??project=${appwriteConfig.projectId}`
+          ? `${appwriteConfig.endpointUrl}/storage/buckets/${appwriteConfig.bucketId}/files/${file.$id}/view?project=${appwriteConfig.projectId}`
           : null,
         ...patient,
       }
