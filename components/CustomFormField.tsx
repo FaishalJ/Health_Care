@@ -34,7 +34,7 @@ interface CustomProps {
   iconSrc?: string;
   iconAlt?: string;
   disabled?: boolean;
-  dateFormat?: string[];
+  dateFormat?: string;
   showTimeSelect?: boolean;
   children?: React.ReactNode;
   renderSkeleton?: (field: any) => React.ReactNode;

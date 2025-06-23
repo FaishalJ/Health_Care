@@ -7,4 +7,5 @@ export const appwriteConfig = {
   patientCollectionId: process.env.PATIENT_COLLECTION_ID!,
   doctorCollectionId: process.env.DOCTOR_COLLECTION_ID!,
   appointmentCollectionId: process.env.APPOINTMENT_COLLECTION_ID!,
+  adminPassKey: process.env.NEXT_PUBLIC_ADMIN_PASSKEY!,
 };
