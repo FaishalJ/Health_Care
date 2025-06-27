@@ -4,9 +4,6 @@ import Image from "next/image";
 import PatientForm from "../components/forms/PatientForm";
 import { PasskeyModal } from "../components/PasskeyModal";
 
-// interface IParams {
-//   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
-// }
 export default async function Home({ searchParams }: SearchParamProps) {
   const isAdmin = (await searchParams).admin === "true";
 
