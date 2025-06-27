@@ -47,7 +47,7 @@ export default function PatientForm() {
       };
 
       const newUser = await createUser(user);
-      // console.log(newUser)
+      console.log(newUser);
 
       if (newUser) {
         router.push(`/patients/${newUser.$id}/register`);
@@ -94,7 +94,7 @@ export default function PatientForm() {
           placeholder="(555) 123-4567"
         />
 
-        <SubmitButton isLoading={isLoading} >Get started</SubmitButton>
+        <SubmitButton isLoading={isLoading}>Get started</SubmitButton>
       </form>
     </Form>
   );

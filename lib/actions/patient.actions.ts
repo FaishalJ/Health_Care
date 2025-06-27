@@ -16,11 +16,10 @@ export const createUser = async (user: CreateUserParams) => {
       user.email,
       user.phone,
       undefined,
-      user.name,
+      user.name
     );
 
-    console.log({ newUser });
-    return newUser;
+    return parseStringify(newUser);
   } catch (error: any) {
     if (error && error?.code === 409) {
       const documents = await users.list([Query.equal("email", user.email)]);
@@ -47,7 +46,7 @@ export const getPatient = async (userId: string) => {
     const patients = await databases.listDocuments(
       appwriteConfig.databaseId,
       appwriteConfig.patientCollectionId,
-      [Query.equal("userId", userId)],
+      [Query.equal("userId", userId)]
     );
     return parseStringify(patients.documents[0]);
   } catch (error) {
@@ -68,13 +67,13 @@ export const registerPatient = async ({
         identificationDocument &&
         InputFile.fromBlob(
           identificationDocument?.get("blobFile") as Blob,
-          identificationDocument?.get("fileName") as string,
+          identificationDocument?.get("fileName") as string
         );
 
       file = await storage.createFile(
         appwriteConfig.bucketId,
         ID.unique(),
-        inputFile,
+        inputFile
       );
     }
 
@@ -89,7 +88,7 @@ export const registerPatient = async ({
           ? `${appwriteConfig.endpointUrl}/storage/buckets/${appwriteConfig.bucketId}/files/${file.$id}/view??project=${appwriteConfig.projectId}`
           : null,
         ...patient,
-      },
+      }
     );
 
     return parseStringify(newPatient);

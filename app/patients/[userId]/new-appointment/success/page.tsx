@@ -9,7 +9,6 @@ import { formatDateTime } from "../../../../../lib/utils";
 const RequestSuccess = async ({ searchParams, params }: SearchParamProps) => {
   const { userId } = await params;
   const appointmentId = ((await searchParams).appointmentId as string) || "";
-  // const appointmentId = (searchParams?.appointmentId as string) || "";
   const appointment = await getAppointment(appointmentId);
 
   const doctor = Doctors.find(
